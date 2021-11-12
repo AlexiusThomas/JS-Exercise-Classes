@@ -109,7 +109,8 @@ class Car {
         + Speaking should return a phrase `Hello my name is {name}, I am from {location}`.
         + {name} and {location} of course come from the instance's own properties.
 */
-cclass Lambdasian {
+
+class Lambdasian {
   constructor(personObj) {
     this.name = personObj.name
     this.age = personObj.age
